@@ -1,0 +1,32 @@
+.link:hover,
+.link:focus {
+  color: lightblue;
+}
+.list:not(:last-child) {
+  color: navy;
+}
+.link-item:nth-child(5) {
+  color: greenyellow;
+}
+.item:nth-child(odd) {
+  color: yellow;
+}
+.link-item:first-of-type {
+  color: red;
+}
+.font-link:nth-child(2n) {
+  color: orange;
+}
+.crosshair {
+  cursor: crosshair;
+}
+a {
+  color: olive;
+  padding-left: 100px;
+}
+a:active {
+  color: olive;
+}
+a:visited {
+  color: olive;
+}
